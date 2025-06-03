@@ -14,7 +14,8 @@ st.set_page_config(layout="wide")
 st.title("City Clustering and Route Mapping")
 
 # ------------------- File Location -------------------
-file_path = r"C:\Users\RentoBees\OneDrive\Documents\ClusterLatlong.xlsx"
+file_path = 'ClusterLatlong.xlsx'
+
 
 try:
     df_cities = pd.read_excel(file_path, sheet_name='Sheet1')
