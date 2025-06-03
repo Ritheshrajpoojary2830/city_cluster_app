@@ -7,3 +7,4 @@ openrouteservice
 folium
 streamlit
 streamlit-folium
+openpyxl
